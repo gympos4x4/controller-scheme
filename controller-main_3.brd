@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="8.4.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.25" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
@@ -22,25 +23,25 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
@@ -64,29 +65,29 @@
 <wire x1="85.99" y1="0.05" x2="85.99" y2="58.05" width="0" layer="20"/>
 <wire x1="85.99" y1="58.05" x2="0" y2="58" width="0" layer="20"/>
 <wire x1="0" y1="58" x2="0" y2="0" width="0" layer="20"/>
-<wire x1="17" y1="57" x2="69" y2="57" width="0.1524" layer="20"/>
-<wire x1="69" y1="57" x2="69" y2="46" width="0.1524" layer="20"/>
-<wire x1="69" y1="46" x2="74" y2="46" width="0.1524" layer="20"/>
-<wire x1="74" y1="46" x2="74" y2="34" width="0.1524" layer="20"/>
-<wire x1="74" y1="34" x2="85" y2="23" width="0.1524" layer="20" curve="90"/>
-<wire x1="85" y1="23" x2="85" y2="10" width="0.1524" layer="20"/>
-<wire x1="85" y1="10" x2="80" y2="10" width="0.1524" layer="20"/>
-<wire x1="56" y1="4" x2="48" y2="15" width="0.1524" layer="20"/>
-<wire x1="48" y1="15" x2="45" y2="15" width="0.1524" layer="20"/>
-<wire x1="45" y1="15" x2="43" y2="17" width="0.1524" layer="20" curve="90"/>
-<wire x1="43" y1="17" x2="41" y2="15" width="0.1524" layer="20" curve="90"/>
-<wire x1="41" y1="15" x2="38" y2="15" width="0.1524" layer="20"/>
-<wire x1="38" y1="15" x2="30" y2="4" width="0.1524" layer="20"/>
-<wire x1="6" y1="10" x2="1" y2="10" width="0.1524" layer="20"/>
-<wire x1="1" y1="10" x2="1" y2="23" width="0.1524" layer="20"/>
-<wire x1="1" y1="23" x2="12" y2="34" width="0.1524" layer="20" curve="90"/>
-<wire x1="12" y1="34" x2="12" y2="46" width="0.1524" layer="20"/>
-<wire x1="12" y1="46" x2="17" y2="46" width="0.1524" layer="20"/>
-<wire x1="17" y1="46" x2="17" y2="57" width="0.1524" layer="20"/>
-<wire x1="21" y1="1" x2="6" y2="10" width="0.1524" layer="20" curve="-61.927513"/>
-<wire x1="21" y1="1" x2="30" y2="4" width="0.1524" layer="20" curve="36.869898"/>
-<wire x1="65" y1="1" x2="80" y2="10" width="0.1524" layer="20" curve="61.927513"/>
-<wire x1="65" y1="1" x2="56" y2="4" width="0.1524" layer="20" curve="-36.869898"/>
+<wire x1="17" y1="57" x2="69" y2="57" width="0" layer="20"/>
+<wire x1="69" y1="57" x2="69" y2="46" width="0" layer="20"/>
+<wire x1="69" y1="46" x2="74" y2="46" width="0" layer="20"/>
+<wire x1="74" y1="46" x2="74" y2="34" width="0" layer="20"/>
+<wire x1="74" y1="34" x2="85" y2="23" width="0" layer="20" curve="90"/>
+<wire x1="85" y1="23" x2="85" y2="10" width="0" layer="20"/>
+<wire x1="85" y1="10" x2="80" y2="10" width="0" layer="20"/>
+<wire x1="56" y1="4" x2="48" y2="15" width="0" layer="20"/>
+<wire x1="48" y1="15" x2="45" y2="15" width="0" layer="20"/>
+<wire x1="45" y1="15" x2="43" y2="17" width="0" layer="20" curve="90"/>
+<wire x1="43" y1="17" x2="41" y2="15" width="0" layer="20" curve="90"/>
+<wire x1="41" y1="15" x2="38" y2="15" width="0" layer="20"/>
+<wire x1="38" y1="15" x2="30" y2="4" width="0" layer="20"/>
+<wire x1="6" y1="10" x2="1" y2="10" width="0" layer="20"/>
+<wire x1="1" y1="10" x2="1" y2="23" width="0" layer="20"/>
+<wire x1="1" y1="23" x2="12" y2="34" width="0" layer="20" curve="90"/>
+<wire x1="12" y1="34" x2="12" y2="46" width="0" layer="20"/>
+<wire x1="12" y1="46" x2="17" y2="46" width="0" layer="20"/>
+<wire x1="17" y1="46" x2="17" y2="57" width="0" layer="20"/>
+<wire x1="21" y1="1" x2="6" y2="10" width="0" layer="20" curve="-61.927513"/>
+<wire x1="21" y1="1" x2="30" y2="4" width="0" layer="20" curve="36.869898"/>
+<wire x1="65" y1="1" x2="80" y2="10" width="0" layer="20" curve="61.927513"/>
+<wire x1="65" y1="1" x2="56" y2="4" width="0" layer="20" curve="-36.869898"/>
 <hole x="4" y="14" drill="1.25"/>
 <hole x="82" y="14" drill="1.25"/>
 <text x="29.5" y="55.75" size="1.778" layer="46" rot="R180">COLUMBA
@@ -97,6 +98,29 @@ MH</text>
 <rectangle x1="25.89" y1="22.48" x2="58.89" y2="45.34" layer="22" rot="R270"/>
 <rectangle x1="60" y1="52.5" x2="61.25" y2="53" layer="1"/>
 <rectangle x1="59.75" y1="51.5" x2="61.25" y2="52" layer="1"/>
+<wire x1="16.8" y1="57.2" x2="69.2" y2="57.2" width="0.4" layer="46"/>
+<wire x1="69.2" y1="57.2" x2="69.2" y2="46.2" width="0.4" layer="46"/>
+<wire x1="69.2" y1="46.2" x2="74.2" y2="46.2" width="0.4" layer="46"/>
+<wire x1="74.2" y1="46.2" x2="74.2" y2="34.05" width="0.4" layer="46"/>
+<wire x1="74.2" y1="34.05" x2="85.2" y2="23.2" width="0.4" layer="46" curve="90"/>
+<wire x1="85.2" y1="23.2" x2="85.2" y2="9.8" width="0.4" layer="46"/>
+<wire x1="85.2" y1="9.8" x2="80.1" y2="9.8" width="0.4" layer="46"/>
+<wire x1="55.85" y1="3.85" x2="47.9" y2="14.8" width="0.4" layer="46"/>
+<wire x1="47.9" y1="14.8" x2="44.8" y2="14.8" width="0.4" layer="46"/>
+<wire x1="44.8" y1="14.8" x2="43" y2="16.85" width="0.4" layer="46" curve="90"/>
+<wire x1="43" y1="16.85" x2="41.2" y2="14.8" width="0.4" layer="46" curve="90"/>
+<wire x1="41.2" y1="14.8" x2="38.1" y2="14.8" width="0.4" layer="46"/>
+<wire x1="38.1" y1="14.8" x2="30.15" y2="3.85" width="0.4" layer="46"/>
+<wire x1="5.9" y1="9.8" x2="0.8" y2="9.8" width="0.4" layer="46"/>
+<wire x1="0.8" y1="9.8" x2="0.8" y2="23.2" width="0.4" layer="46"/>
+<wire x1="0.8" y1="23.2" x2="11.8" y2="34" width="0.4" layer="46" curve="90"/>
+<wire x1="11.8" y1="34" x2="11.8" y2="46.2" width="0.4" layer="46"/>
+<wire x1="11.8" y1="46.2" x2="16.8" y2="46.2" width="0.4" layer="46"/>
+<wire x1="16.8" y1="46.2" x2="16.8" y2="57.2" width="0.4" layer="46"/>
+<wire x1="21.1" y1="0.8" x2="5.9" y2="9.8" width="0.4" layer="46" curve="-61.927513"/>
+<wire x1="21.1" y1="0.8" x2="30.15" y2="3.85" width="0.4" layer="46" curve="36.869898"/>
+<wire x1="65" y1="0.8" x2="80.1" y2="9.8" width="0.4" layer="46" curve="61.927513"/>
+<wire x1="65" y1="0.8" x2="55.85" y2="3.85" width="0.4" layer="46" curve="-36.869898"/>
 </plain>
 <libraries>
 <library name="con-lsta">
@@ -1904,10 +1928,10 @@ design rules under a new name.</description>
 <param name="slThermalsForVias" value="0"/>
 <param name="dpMaxLengthDifference" value="10mm"/>
 <param name="dpGapFactor" value="2.5"/>
-<param name="checkGrid" value="0"/>
 <param name="checkAngle" value="0"/>
 <param name="checkFont" value="1"/>
 <param name="checkRestrict" value="1"/>
+<param name="checkStop" value="0"/>
 <param name="useDiameter" value="13"/>
 <param name="maxErrors" value="50"/>
 </designrules>
@@ -2037,9 +2061,9 @@ design rules under a new name.</description>
 <attribute name="OC_NEWARK" value="14P6981" x="25.5" y="38.75" size="1.778" layer="27" display="off"/>
 </element>
 <element name="X1" library="con-hirose" package="FH12-10S-0.5SH" value="FH12-10S-0.5SH" x="43" y="54" rot="R180">
-<attribute name="OC_FARNELL" value="1324540" x="43" y="54" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="FH12-10S-0.5SH(55)" x="43" y="54" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="" x="43" y="54" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="FH12-10S-0.5SH(55)" x="43" y="54" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_FARNELL" value="1324540" x="43" y="54" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="34M6152" x="43" y="54" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C2" library="resistor" package="C1206" value="" x="25.5" y="32.5"/>
